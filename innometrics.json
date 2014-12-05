@@ -1,0 +1,11 @@
+{
+    "pages": [{
+        "name": "Test frame",
+        "type": "custompage",
+        "content": "frontend/index.html"
+    }],
+    "permissions": ["profile.stream"],
+
+    "runtime": "php 5.5",
+    "database": "mysql 5.5",
+}
