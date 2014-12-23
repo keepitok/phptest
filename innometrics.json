@@ -1,21 +1,14 @@
 {
     "pages": [{
-        "name": "Test frame",
-        "type": "custompage",
+        "name": "Test iframe",
+        "type": "internal",
         "content": "frontend/index.html"
     }],
-    "permissions": ["profile.stream"],
+    "permissions": ["stream", "app.own.read"],
 
-    "runtime": "php 5.5",
-    "database": "mysql 5.5",
-
-    "minimum_requirements": {
-        "memory": 100
-    },
-
-    "env_vars": {
-        "VAR_NAME1": "var value1",
-        "VAR_NAME2": "var value2"
+    "runtime": {
+        "language": "php",
+        "version": "5.5"
     }
 
 }
