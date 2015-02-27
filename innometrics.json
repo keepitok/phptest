@@ -1,7 +1,7 @@
 {
     "pages": [{
         "name": "Test iframe",
-        "type": "internal",
+        "type": "bundled",
         "content": "frontend/index.html"
     }],
     "permissions": ["stream"],
