@@ -4,7 +4,7 @@
         "type": "internal",
         "content": "frontend/index.html"
     }],
-    "permissions": ["stream", "app.own.read"],
+    "permissions": ["stream"],
 
     "runtime": {
         "language": "php",
